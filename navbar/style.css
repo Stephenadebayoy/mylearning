@@ -1,0 +1,44 @@
+/** @format */
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: pink;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.sec {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.c1 {
+    position: absolute;
+    top: 60%;
+ color:red;
+}
+.c2 {
+  width: 200px;
+  height: 400px;
+  background-color: blue;
+  margin: 20px;
+}
+.container {
+  margin: 20px;
+  padding-top: 200px;
+  position: relative;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}

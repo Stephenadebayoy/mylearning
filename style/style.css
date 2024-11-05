@@ -1,0 +1,48 @@
+/** @format */
+
+.cards {
+  width: 500px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.all-cards {
+  height: 200px;
+  overflow-y: auto;
+}
+.container {
+  /* width: 300px; */
+}
+
+.all-card1 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-container {
+  height: 100px;
+  background-color: red;
+  overflow-y: auto;
+}
+
+.pad {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+}
+.mar {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
